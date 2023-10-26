@@ -1,3 +1,12 @@
+struct Node {
+    int data;
+    struct Node* next;
+};
+
+struct BigInteger {
+    struct Node* head;
+};
+
 struct BigInteger initialize(char* s);
 void display(struct BigInteger a);
 struct BigInteger add(struct BigInteger a, struct BigInteger b);
